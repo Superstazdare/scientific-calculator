@@ -1,5 +1,11 @@
 body{
     background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 35%;
+    margin-top: 5%;
+
 }
 .container {
     background: #222;
@@ -123,3 +129,9 @@ body{
     border-bottom: 2px solid #111;
     border-bottom: 2px solid #000;
 }
+@media screen and (max-width: 400px) {
+  body{
+    margin-top: 15%;
+    margin-left: -5%;
+  };
+  }
